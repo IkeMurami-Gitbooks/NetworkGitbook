@@ -10,7 +10,7 @@ description: eXchenge Messages and Presence Protocol
 
 Порт: **5222** (но может быть настроен и через 80/443)
 
-Спецификация: [https://xmpp.org/](https://xmpp.org)
+Спецификация: [https://xmpp.org/](https://xmpp.org/)
 
 ## Протокол
 

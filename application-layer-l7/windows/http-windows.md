@@ -8,6 +8,6 @@ In order to be fully integrated with Active Directory, HTTP supports authenticat
 
 In the case of NTLM relay is specially important to note that HTTP connections don't required signing, so are very susceptible to NTLM cross relay attacks. In fact, there are many attacks like the [PrivExchange](https://dirkjanm.io/abusing-exchange-one-api-call-away-from-domain-admin/) or some [Kerberos RBCD computer takeover](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html#case-study-1-mssql-rcelpe) that rely in NTLM relay from HTTP to LDAP. If you able to coerce a computer to perform an HTTP request using the computer domain account with NTLM authentication , then you can compromise the computer with a [little of Kerberos RBCD magic](https://shenaniganslabs.io/2019/01/28/Wagging-the-Dog.html#case-study-2-windows-1020162019-lpe).
 
-Related to HTTP, in Windows machines you can install the [IIS](https://www.iis.net) web server, that is the basis for some technologies like [WebDAV](https://en.wikipedia.org/wiki/WebDAV) or PSWA (Powershell Web Access), that can be enabled in the `/pswa` endpoint.
+Related to HTTP, in Windows machines you can install the [IIS](https://www.iis.net/) web server, that is the basis for some technologies like [WebDAV](https://en.wikipedia.org/wiki/WebDAV) or PSWA (Powershell Web Access), that can be enabled in the `/pswa` endpoint.
 
 Moreover, you can create a SOCKS proxy over HTTP in a IIS installation by using [pivotnacci](https://github.com/blackarrowsec/pivotnacci).

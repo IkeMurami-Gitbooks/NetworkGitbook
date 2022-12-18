@@ -9,7 +9,7 @@ MSRPC can use different [protocols for transport](https://docs.microsoft.com/en-
 * NetBIOS
 * HTTP, by using the port 593 for the Endpoint Mapper and ports from 49152 to 65535 as endpoints
 
-Depending on the interface, different transport protocols can be used. You can use the impacket [rpcdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/rpcdump.py) and [rpcmap.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/rpcmap.py) utilities to discover the RPC endpoints (and their protocols) that can be used for connecting to a given service in a remote machine. Additionally, you can explore the RPC endpoints in your local machine by using [RpcView](https://www.rpcview.org).
+Depending on the interface, different transport protocols can be used. You can use the impacket [rpcdump.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/rpcdump.py) and [rpcmap.py](https://github.com/SecureAuthCorp/impacket/blob/master/examples/rpcmap.py) utilities to discover the RPC endpoints (and their protocols) that can be used for connecting to a given service in a remote machine. Additionally, you can explore the RPC endpoints in your local machine by using [RpcView](https://www.rpcview.org/).
 
 ```bash
 $ python rpcdump.py 'contoso.local/Han:Solo1234!@192.168.100.2' | grep LSAT -A 20 | grep -v ncalrpc
