@@ -84,6 +84,7 @@
 ## Security
 
 * [MiTM](in9uz.md)
+* [Network Pentest Course (youtube)](security/network-pentest-course-youtube.md)
 * [Tools](security/tools/README.md)
   * [HTTP Proxy](security/tools/http-proxy/README.md)
     * [mitmproxy](security/tools/http-proxy/mitmproxy.md)
