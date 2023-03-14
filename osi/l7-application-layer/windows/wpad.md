@@ -10,7 +10,7 @@ Hijack WPAD -> Proxy Server
 
 Insert any html tags in HTTP Response
 
-![](<../../.gitbook/assets/изображение (7).png>)
+![](<../../../.gitbook/assets/изображение (7).png>)
 
 Атаке через протокол WPAD подвержены все системы — Linux, Windows, MacOS
 
