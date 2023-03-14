@@ -12,7 +12,7 @@ description: Application-Layer Protocol Negotiation
 
 Очень кратко:
 
-![](<../../../../../.gitbook/assets/изображение (2).png>)
+![](<../../../../.gitbook/assets/изображение (2).png>)
 
 ## Статьи
 

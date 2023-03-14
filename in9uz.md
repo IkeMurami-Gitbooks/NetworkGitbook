@@ -14,4 +14,4 @@ python mitm_relay.py -r tcp:1337:google.com:443 -p localhost:8080 -c server.pem 
 
 mitm6: [https://github.com/fox-it/mitm6](https://github.com/fox-it/mitm6)
 
-{% file src="../.gitbook/assets/MITM Nightmare by Inguz.pdf" %}
+{% file src=".gitbook/assets/MITM Nightmare by Inguz.pdf" %}

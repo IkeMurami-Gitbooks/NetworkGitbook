@@ -2,7 +2,7 @@
 
 ## About
 
-![](<../../../../.gitbook/assets/изображение (5).png>)
+![](<../../../.gitbook/assets/изображение (5).png>)
 
 [LLMNR](https://en.wikipedia.org/wiki/Link-Local\_Multicast\_Name\_Resolution) (Link-Local Multicast Name Resolution) is a descentralized application protocol similar to DNS that allows to resolve hostnames in the same local network, which means that its packets are not forwarded by routers and are only transmited in their network segment. It is included in Windows since Windows Vista, and is the third preferred method to resolve names. The order of preference is the following:
 

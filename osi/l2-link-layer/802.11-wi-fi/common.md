@@ -1,4 +1,4 @@
-# 802.11 (Wi-Fi)
+# План
 
 * Wi-Fi security and encryption modes, e.g.:
   * WEP
