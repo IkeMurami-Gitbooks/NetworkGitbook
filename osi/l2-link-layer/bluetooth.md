@@ -6,3 +6,5 @@
 Ubertooth: [https://github.com/greatscottgadgets/ubertooth.git](https://github.com/greatscottgadgets/ubertooth.git)
 
 Сканер bluetooth устройств на уязвимости: [https://github.com/fO-000/bluescan](https://github.com/fO-000/bluescan)
+
+О безопасности Bluetooth: [https://github.com/engn33r/awesome-bluetooth-security](https://github.com/engn33r/awesome-bluetooth-security)
