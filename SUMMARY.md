@@ -63,6 +63,7 @@
 * [L5: Session Layer](osi/l5-session-layer/README.md)
   * [SSDP](session-layer-l5/ssdp.md)
 * [L4: Transport Layer](osi/l4-transport-layer/README.md)
+  * [SMPP](osi/l4-transport-layer/smpp.md)
   * [QUIC](transport-layer-l4/quic.md)
   * [UDP](transport-layer-l4/udp.md)
   * [TCP](transport-layer-l4/tcp.md)
